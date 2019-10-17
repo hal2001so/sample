@@ -1,0 +1,269 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": [
+      {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      {
+        "id": "hello-cdk-1",
+        "path": "hello-cdk-1",
+        "children": [
+          {
+            "id": "MyFirstQueue",
+            "path": "hello-cdk-1/MyFirstQueue",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "hello-cdk-1/MyFirstQueue/Resource"
+              },
+              {
+                "id": "Policy",
+                "path": "hello-cdk-1/MyFirstQueue/Policy",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/MyFirstQueue/Policy/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "hellocdk1MyFirstTopicB252874C",
+                "path": "hello-cdk-1/MyFirstQueue/hellocdk1MyFirstTopicB252874C",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/MyFirstQueue/hellocdk1MyFirstTopicB252874C/Resource"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "MyFirstTopic",
+            "path": "hello-cdk-1/MyFirstTopic",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "hello-cdk-1/MyFirstTopic/Resource"
+              }
+            ]
+          },
+          {
+            "id": "MyHelloConstruct",
+            "path": "hello-cdk-1/MyHelloConstruct",
+            "children": [
+              {
+                "id": "Bucket-0",
+                "path": "hello-cdk-1/MyHelloConstruct/Bucket-0",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/MyHelloConstruct/Bucket-0/Resource"
+                  },
+                  {
+                    "id": "Notifications",
+                    "path": "hello-cdk-1/MyHelloConstruct/Bucket-0/Notifications"
+                  }
+                ]
+              },
+              {
+                "id": "Bucket-1",
+                "path": "hello-cdk-1/MyHelloConstruct/Bucket-1",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/MyHelloConstruct/Bucket-1/Resource"
+                  },
+                  {
+                    "id": "Notifications",
+                    "path": "hello-cdk-1/MyHelloConstruct/Bucket-1/Notifications"
+                  }
+                ]
+              },
+              {
+                "id": "Bucket-2",
+                "path": "hello-cdk-1/MyHelloConstruct/Bucket-2",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/MyHelloConstruct/Bucket-2/Resource"
+                  },
+                  {
+                    "id": "Notifications",
+                    "path": "hello-cdk-1/MyHelloConstruct/Bucket-2/Notifications"
+                  }
+                ]
+              },
+              {
+                "id": "Bucket-3",
+                "path": "hello-cdk-1/MyHelloConstruct/Bucket-3",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/MyHelloConstruct/Bucket-3/Resource"
+                  },
+                  {
+                    "id": "Notifications",
+                    "path": "hello-cdk-1/MyHelloConstruct/Bucket-3/Notifications"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "MyUser",
+            "path": "hello-cdk-1/MyUser",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "hello-cdk-1/MyUser/Resource"
+              },
+              {
+                "id": "DefaultPolicy",
+                "path": "hello-cdk-1/MyUser/DefaultPolicy",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-1/MyUser/DefaultPolicy/Resource"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hello-cdk-2",
+        "path": "hello-cdk-2",
+        "children": [
+          {
+            "id": "MyFirstQueue",
+            "path": "hello-cdk-2/MyFirstQueue",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "hello-cdk-2/MyFirstQueue/Resource"
+              },
+              {
+                "id": "Policy",
+                "path": "hello-cdk-2/MyFirstQueue/Policy",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/MyFirstQueue/Policy/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "hellocdk2MyFirstTopic4B01F128",
+                "path": "hello-cdk-2/MyFirstQueue/hellocdk2MyFirstTopic4B01F128",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/MyFirstQueue/hellocdk2MyFirstTopic4B01F128/Resource"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "MyFirstTopic",
+            "path": "hello-cdk-2/MyFirstTopic",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "hello-cdk-2/MyFirstTopic/Resource"
+              }
+            ]
+          },
+          {
+            "id": "MyHelloConstruct",
+            "path": "hello-cdk-2/MyHelloConstruct",
+            "children": [
+              {
+                "id": "Bucket-0",
+                "path": "hello-cdk-2/MyHelloConstruct/Bucket-0",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/MyHelloConstruct/Bucket-0/Resource"
+                  },
+                  {
+                    "id": "Notifications",
+                    "path": "hello-cdk-2/MyHelloConstruct/Bucket-0/Notifications"
+                  }
+                ]
+              },
+              {
+                "id": "Bucket-1",
+                "path": "hello-cdk-2/MyHelloConstruct/Bucket-1",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/MyHelloConstruct/Bucket-1/Resource"
+                  },
+                  {
+                    "id": "Notifications",
+                    "path": "hello-cdk-2/MyHelloConstruct/Bucket-1/Notifications"
+                  }
+                ]
+              },
+              {
+                "id": "Bucket-2",
+                "path": "hello-cdk-2/MyHelloConstruct/Bucket-2",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/MyHelloConstruct/Bucket-2/Resource"
+                  },
+                  {
+                    "id": "Notifications",
+                    "path": "hello-cdk-2/MyHelloConstruct/Bucket-2/Notifications"
+                  }
+                ]
+              },
+              {
+                "id": "Bucket-3",
+                "path": "hello-cdk-2/MyHelloConstruct/Bucket-3",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/MyHelloConstruct/Bucket-3/Resource"
+                  },
+                  {
+                    "id": "Notifications",
+                    "path": "hello-cdk-2/MyHelloConstruct/Bucket-3/Notifications"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "MyUser",
+            "path": "hello-cdk-2/MyUser",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "hello-cdk-2/MyUser/Resource"
+              },
+              {
+                "id": "DefaultPolicy",
+                "path": "hello-cdk-2/MyUser/DefaultPolicy",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "hello-cdk-2/MyUser/DefaultPolicy/Resource"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "version": "1.10.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "hello-cdk-1": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-east-2",
+      "properties": {
+        "templateFile": "hello-cdk-1.template.json"
+      },
+      "metadata": {
+        "/hello-cdk-1/MyFirstQueue/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstQueueFF09316A",
+            "trace": [
+              "new Queue (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sqs/lib/queue.js:47:23)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyFirstQueue/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstQueuePolicy596EEC78",
+            "trace": [
+              "new QueuePolicy (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sqs/lib/policy.js:16:9)",
+              "Queue.addToResourcePolicy (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sqs/lib/queue-base.js:19:27)",
+              "SqsSubscription.bind (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns-subscriptions/lib/sqs.js:22:20)",
+              "Topic.addSubscription (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns/lib/topic-base.js:15:49)",
+              "_wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:51)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "ret._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:25)",
+              "Kernel._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7420:20)",
+              "Kernel.invoke (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6824:26)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyFirstQueue/hellocdk1MyFirstTopicB252874C/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstQueuehellocdk1MyFirstTopicB252874C505090E8",
+            "trace": [
+              "new Subscription (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns/lib/subscription.js:29:9)",
+              "Topic.addSubscription (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns/lib/topic-base.js:23:9)",
+              "_wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:51)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "ret._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:25)",
+              "Kernel._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7420:20)",
+              "Kernel.invoke (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6824:26)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyFirstTopic/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstTopic0ED1F8A4",
+            "trace": [
+              "new Topic (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns/lib/topic.js:15:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyHelloConstruct/Bucket-0/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyHelloConstructBucket0DAEC57E1",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:330:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyHelloConstruct/Bucket-1/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyHelloConstructBucket18D9883BE",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:330:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyHelloConstruct/Bucket-2/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyHelloConstructBucket2C1DA3656",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:330:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyHelloConstruct/Bucket-3/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyHelloConstructBucket398A5DE67",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:330:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyUser/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyUserDC45028B",
+            "trace": [
+              "new User (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/user.js:23:22)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-1/MyUser/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyUserDefaultPolicy7B897426",
+            "trace": [
+              "new Policy (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/policy.js:29:26)",
+              "User.addToPolicy (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/user.js:111:34)",
+              "Function.addToPrincipal (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/grant.js:54:65)",
+              "Function.addToPrincipalOrResource (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/grant.js:31:30)",
+              "Bucket.grant (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:239:29)",
+              "Bucket.grantRead (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:140:21)",
+              "_wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:51)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "ret._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:25)",
+              "Kernel._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7420:20)",
+              "Kernel.invoke (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6824:26)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ]
+      }
+    },
+    "hello-cdk-2": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-west-2",
+      "properties": {
+        "templateFile": "hello-cdk-2.template.json"
+      },
+      "metadata": {
+        "/hello-cdk-2/MyFirstQueue/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstQueueFF09316A",
+            "trace": [
+              "new Queue (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sqs/lib/queue.js:47:23)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyFirstQueue/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstQueuePolicy596EEC78",
+            "trace": [
+              "new QueuePolicy (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sqs/lib/policy.js:16:9)",
+              "Queue.addToResourcePolicy (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sqs/lib/queue-base.js:19:27)",
+              "SqsSubscription.bind (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns-subscriptions/lib/sqs.js:22:20)",
+              "Topic.addSubscription (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns/lib/topic-base.js:15:49)",
+              "_wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:51)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "ret._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:25)",
+              "Kernel._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7420:20)",
+              "Kernel.invoke (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6824:26)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyFirstQueue/hellocdk2MyFirstTopic4B01F128/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstQueuehellocdk2MyFirstTopic4B01F128AEF1A381",
+            "trace": [
+              "new Subscription (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns/lib/subscription.js:29:9)",
+              "Topic.addSubscription (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns/lib/topic-base.js:23:9)",
+              "_wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:51)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "ret._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:25)",
+              "Kernel._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7420:20)",
+              "Kernel.invoke (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6824:26)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyFirstTopic/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstTopic0ED1F8A4",
+            "trace": [
+              "new Topic (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-sns/lib/topic.js:15:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyHelloConstruct/Bucket-0/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyHelloConstructBucket0DAEC57E1",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:330:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyHelloConstruct/Bucket-1/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyHelloConstructBucket18D9883BE",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:330:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyHelloConstruct/Bucket-2/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyHelloConstructBucket2C1DA3656",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:330:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyHelloConstruct/Bucket-3/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyHelloConstructBucket398A5DE67",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:330:26)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyUser/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyUserDC45028B",
+            "trace": [
+              "new User (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/user.js:23:22)",
+              "obj._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:49)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "Kernel._create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6992:26)",
+              "Kernel.create (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6746:21)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/hello-cdk-2/MyUser/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyUserDefaultPolicy7B897426",
+            "trace": [
+              "new Policy (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/policy.js:29:26)",
+              "User.addToPolicy (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/user.js:111:34)",
+              "Function.addToPrincipal (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/grant.js:54:65)",
+              "Function.addToPrincipalOrResource (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-iam/lib/grant.js:31:30)",
+              "Bucket.grant (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:239:29)",
+              "Bucket.grantRead (/tmp/jsii-kernel-8dFpU5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:140:21)",
+              "_wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:51)",
+              "Kernel._wrapSandboxCode (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7444:20)",
+              "ret._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6825:25)",
+              "Kernel._ensureSync (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7420:20)",
+              "Kernel.invoke (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6824:26)",
+              "KernelHost.processRequest (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6521:28)",
+              "KernelHost.run (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6464:14)",
+              "Immediate.setImmediate [as _onImmediate] (/home/tardisfu/workspace/sample/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6467:37)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cx-api": "1.13.1",
+      "@aws-cdk/core": "1.13.1",
+      "@aws-cdk/region-info": "1.13.1",
+      "@aws-cdk/aws-iam": "1.13.1",
+      "@aws-cdk/aws-cloudwatch": "1.13.1",
+      "@aws-cdk/aws-kms": "1.13.1",
+      "@aws-cdk/aws-sqs": "1.13.1",
+      "@aws-cdk/aws-events": "1.13.1",
+      "@aws-cdk/aws-sns": "1.13.1",
+      "@aws-cdk/aws-ssm": "1.13.1",
+      "@aws-cdk/aws-ec2": "1.13.1",
+      "@aws-cdk/aws-logs": "1.13.1",
+      "@aws-cdk/aws-s3": "1.13.1",
+      "@aws-cdk/assets": "1.13.1",
+      "@aws-cdk/aws-s3-assets": "1.13.1",
+      "@aws-cdk/aws-lambda": "1.13.1",
+      "@aws-cdk/aws-sns-subscriptions": "1.13.1",
+      "jsii-runtime": "Python/3.7.3"
+    }
+  }
+}
