@@ -13,7 +13,7 @@ class MyStack(core.Stack):
         super().__init__(scope, id, **kwargs)
         
         # Defines an AWS Lambda Resource
-        my_lambda = _lambda.Function(
+        hello= _lambda.Function(
             self, 'HelloHandler',
             runtime= _lambda.Runtime.PYTHON_3_7,
             code= _lambda.Code.asset('lambda'),
@@ -22,8 +22,8 @@ class MyStack(core.Stack):
             )
 
         hello_with_counter = HitCounter(
-            self,'HelloHandler',
-            downstream= my_lambda,
+            self,'HelloHitCounter',
+            downstream= hello,
             )
 
         apigw.LambdaRestApi(

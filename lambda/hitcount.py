@@ -15,7 +15,7 @@ def handler(event, context):
     )
 
     resp = _lambda.invoke(
-        FunctionName=os.environ['DOWNSTREAM_FUNCTION_NAME'],
+        FunctionName=os.environ['DOWNSTREAM_FUNCTION_NAME'], # Calls the downstream function name value from the hitcounter construct after logging the hit in Dynamodb.
         Payload=json.dumps(event),
     )
 
